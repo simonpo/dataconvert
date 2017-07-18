@@ -36,4 +36,6 @@ inc/
 
 # Private data
 /output
+/oldoutput
 *.csv
+*.txt

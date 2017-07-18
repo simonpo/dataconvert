@@ -1,0 +1,29 @@
+{
+    // Use IntelliSense to learn about possible Node.js debug attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceRoot}\\run.js",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "NODE_ENV": "development",
+                "T_CONSUMER_KEY": "lOz3FmFT4EzcwzC9dip9fsQZX",
+                "T_CONSUMER_SECRET": "XWY41IRzQgwJSAWrU07qhyLQSHqZ14u3PwqpVPY8TZc0Xajx8O",
+                "T_ACCESS_TOKEN": "879509892926590977-fPkTA73srwIjUwd2A29GRCNxGAVRZpR",
+                "T_ACCESS_TOKEN_SECRET": "YATcsTrRlXgQLlv1ZKZVdNHb3arEAsY42HyqtCzseI7vw",
+                "WEBROOT_PATH": "c:\\Users\\simonpo\\code\\"
+            }
+        },
+        {
+            "type": "node",
+            "request": "attach",
+            "name": "Attach to Process",
+            "port": 5858
+        }
+    ]
+}
